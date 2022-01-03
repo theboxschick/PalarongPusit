@@ -1,0 +1,441 @@
+.cointainer 
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.cointainer .boxs
+{
+    position: relative;
+    width: 290px;
+    height: 400px;
+    padding: 40px;
+    background: #287b7a;
+    box-shadow: 0 0px 0px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+.cointainer .boxs .cointent h3
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cointainer .boxs:before
+{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+.cointainer .boxs .eyecon
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+.cointainer .boxs:nth-child(1) .eyecon
+{
+    box-shadow: 0 0 0 0 ;
+    background: #f04057;
+}
+.cointainer .boxs:nth-child(1):hover .eyecon
+{
+    box-shadow: 0 0 0 400px #f04057 ;
+}
+.cointainer .boxs:nth-child(2) .eyecon
+{
+    box-shadow: 0 0 0 0 ;
+    background: #a0cc39;
+}
+.cointainer .boxs:nth-child(2):hover .eyecon
+{
+    box-shadow: 0 0 0 400px #a0cc39 ;
+}
+.cointainer .boxs:nth-child(3) .eyecon
+{
+    box-shadow: 0 0 0 0 ;
+    background: #fdd54f;
+}
+.cointainer .boxs:nth-child(3):hover .eyecon
+{
+    box-shadow: 0 0 0 400px #fdd54f ;
+}
+.cointainer .boxs .cointent
+{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.cointainer .boxs:hover .cointent
+{
+    color: #fff;
+}
+.cointent p
+{
+  visibility: hidden;
+  opacity: 0;
+}
+.cointainer .boxs:hover .cointent h3
+{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.cointainer .boxs:hover .cointent p
+{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+.cointainer2 .box
+{
+  position: relative;
+  width: 350px;
+  padding: 40px;
+  background: #fff;
+
+}
+.box2
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.alternative-gflow
+{
+  font-size: 1em;
+  color: #fff;
+  background: #eb4180;
+  display: inline-block;
+  padding: 18px 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.alternative-gflow:hover
+{
+	background: #ff0157;
+  letter-spacing: 6px;
+}
+.alternative_cointainer
+{
+  margin-bottom: 50px;
+  z-index: 5;
+}
+.alternative-cointainer{
+  position: relative;
+  display: flex;
+  justify-content: bottom;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.7s;
+}
+.alternative-cointainer .alternative-flowgame
+{
+font-size: 1em;
+font-weight: 800;
+margin-bottom: 20px;
+margin-top: 35px;
+color: rgb(255, 253, 253);
+text-transform: uppercase;
+text-align: center;
+}
+.content2 .title_Text
+{
+  font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content2 .title_Text span {
+  font-size: 60px;
+  color: #eb4180;
+  font-weight: 700;
+}
+.content2 .white
+{
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fff;
+}
+.content2 .white span
+{
+  font-size: 60px;
+  color: #eb4180;
+  font-weight: 700;
+}
+.content2 h3
+{
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.content2 h3 span
+{
+  font-size: 60px;
+  color: #eb4180;
+  font-weight: 700;
+}
+.content2 p
+{
+  position: relative;
+  font-size: 20px;
+  margin: 15px;
+  letter-spacing: 3px;
+  text-align: left;
+}
+.content2 .contect
+{
+  text-align: center;
+  margin-bottom: 10em;
+}
+.fuckthierror
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+	  transition: 0.5s;
+}
+
+
+.alternative-bton
+{
+  font-size: 1em;
+  color: #fff;
+  background: #eb4180;
+  display: inline-block;
+  padding: 18px 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.alternative-bton:hover
+{
+	background: #ff0157;
+  letter-spacing: 6px;
+}
+.alternative_cointainer
+{
+  margin-bottom: 50px;
+  z-index: 5;
+}
+.alternative-cointainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  transition: 0.7s;
+  margin-top: 50px;
+}
+.alternative-cointainer .Alterative
+{
+font-size: 1em;
+font-weight: 800;
+margin-bottom: 20px;
+color: #111;
+text-transform: uppercase;
+text-align: center;
+}
+
+.cointainer2 
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.cointainer2 .boxs2
+{
+    position: relative;
+    width: 290px;
+    height: 400px;
+    padding: 40px;
+    background: #eb5172;
+    box-shadow: 0 0px 0px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+}
+.cointainer2 .boxs2 .cointent2 h3
+{
+  font-family: 'Poppins', sans-serif;
+}
+.cointainer2 .boxs2:before
+{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+.cointainer2 .boxs2 .eyecon2
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+.cointainer2 .boxs2:nth-child(1) .eyecon2
+{
+    box-shadow: 0 0 0 0 ;
+    background: #287b7a;
+}
+.cointainer2 .boxs2:nth-child(1):hover .eyecon2
+{
+    box-shadow: 0 0 0 400px #287b7a ;
+}
+.cointainer2 .boxs2:nth-child(2) .eyecon2
+{
+    box-shadow: 0 0 0 0 ;
+    background: #287b7a;
+}
+.cointainer2 .boxs2:nth-child(2):hover .eyecon2
+{
+    box-shadow: 0 0 0 400px #287b7a ;
+}
+.cointainer2 .boxs2:nth-child(3) .eyecon2
+{
+    box-shadow: 0 0 0 0 ;
+    background: #287b7a;
+}
+.cointainer2 .boxs2:nth-child(3):hover .eyecon2
+{
+    box-shadow: 0 0 0 400px #287b7a ;
+}
+.cointainer2 .boxs2 .cointent2
+{
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.cointainer2 .boxs2:hover .cointent2
+{
+    color: #fff;
+}
+.cointent2 p
+{
+  visibility: hidden;
+  opacity: 0;
+}
+.cointainer2 .boxs2:hover .cointent2 h3
+{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.cointainer2 .boxs2:hover .cointent2 p
+{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    visibility: visible;
+    opacity: 1;
+    font-weight: 900;
+}
+
+@media (max-width: 989px)
+{
+  .cointainer2 .boxs2 {
+    height: 200px;
+  }
+  .content2 h3
+  {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 646px)
+{
+  .content2 p
+  {
+    font-size: 10px;
+  }
+}

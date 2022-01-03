@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palarong Pusit</title>
+    <link rel="stylesheet" href="css/redlight_greenlight.css">
+    <link rel="shortcut icon" type ="image" href ="logo.png">
+    <meta property="og:image" content="preview.png">
+    <meta property="og:title" content="Palarong Pusit"/>
+    <meta property="og:description" content="We are the Grade 11-Faith, the founder of this event. Palarong Pusit is a competitive and free-for-all like Squid Game, but with a twist. Every game consists of a variety of exercises designed to get everyone moving and sweating."/>
+    <script src="https://kit.fontawesome.com/5c687ada1a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  </head>
+<body class ="loading">
+       <!-- Loader -->
+    <div class ="load">
+      <div class="loader">
+          <svg viewBox="0 0 80 80">
+              <circle id="test" cx="40" cy="40" r="32"></circle>
+          </svg>
+      </div>
+    
+      <div class="loader triangle">
+          <svg viewBox="0 0 86 80">
+              <polygon points="43 8 79 72 7 72"></polygon>
+          </svg>
+      </div>
+    
+      <div class="loader">
+          <svg viewBox="0 0 80 80">
+              <rect x="8" y="8" width="64" height="64"></rect>
+          </svg>
+      </div>
+      <a class="dribbble" href="https://dribbble.com/shots/5878367-Loaders" target="_blank"><img src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg" alt=""></a>
+  </div>
+
+    <!-- Navigation Bar -->
+   <header>
+    <a href="#" class="logo">Pala<span>rong</span> Pu<span>si</span>t</a>
+    <div class="menuToggle"></div>
+    <ul class="navigation">
+      <li><a href ="#home">Home</a></li>
+      <li><a href ="#mechanics">Mechanics</a></li>
+      <li><a href ="#flow">Flow of the Game</a></li>
+      <li><a href ="#demo">Demo Video</a></li>
+      <li><a href ="#contact">Contacts</a></li>
+      <li><a class ="goBack" href ="home.html#activities">Go Back ></a></li>
+    </ul>
+    </header>
+
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
+    <!--Home-->
+    <section class ="banner" id="home" onclick="scrollToTop();">
+      <div class ="content">
+        
+      <div class ="title">
+        <h1>Red</a><span class="red">Light</span>, <span class="green">Green</span>Light, Yellow<span class="yellow">Light</span></h1>
+        </div>
+    </section>
+  
+    <!--Exercise-->
+    <section class = "exercise_container">
+      <div class ="redlight_container">
+          <div class ="redlight_p">Click this to start exercising! Don't forget to record! You can find demo videos below.</div>
+        <div class ="redlight_greenlight">
+            <div class ="video">
+                <a onclick="clickity();">START YOUR EXERCISE!!</a>
+            </div>
+        </div>
+        <div class="redlight_video">
+          <div class ="content2">
+            <div class ="mxw800p">
+              <p>Watch in Fullscreen for best experience.</p>
+            </div>
+            <div class ="iframe-container">
+              <iframe src="https://www.youtube.com/embed/V_w2UQsEH4w" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <img src="others/close.png" class="close2" onclick="clickity();">
+        </div>
+      </div>
+    </section>
+
+    <!--Mechanics-->
+    <section class ="sec" id="mechanics">
+      <div class ="content2">
+          <div class ="mxw800p">
+            <h3 class="titleText"><span>M</span>echanics</h3>
+            <p>The first game is called <b>Red Light, Yellow Light, and Green Light.</b> When you see and hear the words “red light”, you are not permitted to move, you will be eliminated if you are caught moving. However, when you see and hear “green light”, you will perform either push-ups or squats. On the other hand, when you see and hear “yellow light”, you will be given 30 seconds to rest (along the game, you will see and hear “yellow light” 2 times). 
+
+              If you can survive the 5-minute game, you will automatically proceed to the next round. However, if the participants are caught moving during the red light, they will immediately be eliminated.  
+              
+              Only a maximum of 30 participants will be able to proceed to the next round, so submit your entry early and do your best to proceed to the next round.  </p>
+          </div>
+          <div class ="alternative-container">
+            <div class ="alternative">If you are recently vaccinated this is the mechanics for you.</div>
+                <a class="alternative-btn" onclick="active();">Alternative Mechanics</a>
+              </div>
+            </div>
+        <div class="demo_mechanics">
+          <div class ="content2">
+            <div class ="mxw800p">
+              <h3 class="title_Text"><span>A</span>lternative Mechanics</h3>
+            <p>The first game is called <b>Red Light, Yellow Light, and Green Light.</b> When you see and hear “red light”, it indicates that you are not permitted to move (balance yourself). You will be eliminated if you are caught moving. When you see and hear “green light”, however, you will perform jog in place. On the other hand, when you see and hear “yellow light”, you will be given 30 seconds to rest (along the game, you will see and hear “yellow light” 2 times).</p>
+          </div>
+        </div>
+            <img src="others/close.png" class="close" onclick="active();">
+        </div>
+
+    </section>
+
+    <!--Flow of The Game-->
+    <section class ="sec stats" id="flow">
+      <div class ="content2">
+          <div class ="mxw800p">
+            <h3 class="white"><span>F</span>low of the Game</h3>
+            <p class="flowGame">
+              <span class="green">GREEN LIGHT</span> – 1 MINUTE <br> 
+
+              <span class="red">RED LIGHT</span> – 30 SECS <br>
+              
+              <span class="yellow">YELLOW LIGHT</span> – 30 SECS	 <br>
+              
+              <span class="green">GREEN LIGHT</span> - 1 MINUTE <br>
+              
+              <span class="red">RED LIGHT</span> – 30 SEC <br>
+              
+              <span class ="yellow">YELLOW LIGHT</span> – 30 SECS <br>
+              
+              <span class="green">GREEN LIGHT</span> – 1 MINUTE <br>
+              
+              <span class="red">RED LIGHT</span> – 30 SEC </p>
+          </div>
+      </div>
+    </section>
+
+    <!--Demo Video-->
+    <section class ="sec" id="demo">
+      <div class ="content2">
+        <div class ="mxw800p">
+            <h3 class="titleText"><span>D</span>emo Video</h3>
+        </div>
+          <div class ="iframe-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/HJAgjP8hBWA" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+          </div>
+    </section>
+
+    <!--- Alternative Demo Video --->
+    <section class= "alternative_container">
+      <div class ="alternative">
+        <div class ="content">
+            <a href="#introduction" onclick="toggle();">Watch Alternative Demo Video</a>
+        </div>
+    </div>
+    <div class="alternative_video">
+      <div class ="content2">
+        <div class ="mxw800p">
+          <p>Watch in Fullscreen for best experience.</p>
+        </div>
+        <div class ="iframe-container">
+          <iframe src="https://www.youtube-nocookie.com/embed/nAxYzTw-KRs?rel=0" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+        <img src="others/close.png" class="close3" onclick="toggle();">
+    </div>
+    </section>
+
+    <!--How To Record -->
+    <section class ="sec">
+      <div class ="content2">
+        <div class ="mxw800p">
+            <h3 class="titleText"><span>H</span>ow to Record</h3>
+        </div>
+        <div class ="iframe-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/00-OqqlBs4Q?rel=0" width="660" height="415" frameborder="0" allowfullscreen></iframe>
+          </div>
+    </section>   
+
+    <!--Contacts-->
+    <section class ="sec squid" id="contact">
+      <div class ="content2">
+          <div class ="mxw800p">
+            <h3 class="titleText"><span>A</span>fter you are done</h3>
+            <p class="contect">Please contact <span>Samantha Acuña</span> or <span>Willi-Anne Cabato</span> on MS TEAMS<br> or you can submit it on <span>faith11events@gmail.com</span></p>
+          </div>
+
+    </section>
+
+    <!---Footer--->
+    <footer>
+      <div class="container">
+          <div class="section aboutus">
+              <h2>About Us</h2>
+              <p>We are the Grade 11-Faith, the founder of this event. “Palarong Pusit" is a competitive and free-for-all like "Squid Game", but with a twist. Every game consists of a variety of exercises designed to get everyone moving and sweating.</p>
+          </div>
+          <div class ="section quickLinks">
+              <h2>Quick Links</h2>
+              <ul>
+                <li><a href ="#home">Home</a></li>
+                <li><a href ="#mechanics">Mechanics</a></li>
+                <li><a href ="#flow">Flow of the Game</a></li>
+                <li><a href ="#demo">Demo Video</a></li>
+                <li><a href ="#contact">Contacts</a></li>
+                <li><a class ="goBack" href ="home.html#activities">Go Back ></a></li>
+              </ul>
+          </div>
+          <div class ="section contact">
+              <h2>Contact Info</h2>
+              <ul class="info">
+                  <li>
+                      <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                      <span>Unknown</span>
+                  </li>
+                  <li>
+                      <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                      <p><a href="tel:12345678900">Samantha Acuña</a><br>
+                          <a href="tel:12345678900">Willi-Anne Cabato</a></p>
+                  </li>
+                  <li>
+                      <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                      <p><a href="mailto:faith11events@gmail.com"> faith11events@gmail.com</a></p>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </footer>   
+
+    <!---Scripts--->
+    <script src="js/redlight_greenlight.js"></script>
+    <script src="js/scroll-out.js"></script>
+    <script>
+            ScrollOut({
+        targets: 'div,span,h3'
+      })
+
+      //Exercise Video
+    function clickity(){
+    var redlight_video = document.querySelector(".redlight_video")
+    redlight_video.classList.toggle("active");
+    }
+    
+    //Mechanics
+      function active(){
+      var demomechanics= document.querySelector(".demo_mechanics")
+      demomechanics.classList.toggle("active");
+    }
+
+    //Demo Video
+    function toggle(){
+    var demovideo= document.querySelector(".alternative_video")
+    demovideo.classList.toggle("active");
+  }
+    </script>
+  </body>
+  </html>

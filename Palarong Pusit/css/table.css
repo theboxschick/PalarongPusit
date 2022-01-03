@@ -1,0 +1,83 @@
+
+table { 
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .10);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th, caption {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+a {
+    text-decoration: none;
+    color: #111;
+}
+th:hover {
+    background-color: #666;
+    transition: .5s;
+    color: rgb(199, 55, 55);
+}
+
+td {
+    text-align: center;
+}
+table, td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    
+}th, td{
+    padding: 10px;
+}
+
+tr:nth-child(1) {
+    background-color: #ddd
+}
+.BINGO{
+    background-color: #ddd
+}
+.exercise .BINGO:hover {
+    background-color: #666;
+    transition: 0.5s;
+    color: #fff;
+}
+.exercise
+{
+    background: #fff;
+}
+.exercise td:hover
+{
+    background: #f3f3f3;
+}
+@media (max-width: 660px)
+{
+    table
+    {
+        font-size: 10px;
+    }
+    th, caption 
+    {
+        font-size: 20px;
+    }
+}
+@media (max-width: 506px)
+{
+    table
+    {
+        font-size: 8px;
+    }
+}
+.content2 .free
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 150px;
+    color: #fff;
+}

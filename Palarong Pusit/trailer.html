@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palarong Pusit</title>
+    <link rel="stylesheet" href="css/trailer.css">
+    <link rel="shortcut icon" type ="image" href ="logo2.png">
+    <script src="https://kit.fontawesome.com/5c687ada1a.js" crossorigin="anonymous"></script>
+    <meta property="og:image" content="preview.png">
+    <meta property="og:title" content="Palarong Pusit"/>
+    <meta property="og:description" content="We are the Grade 11-Faith, the founder of this event. Palarong Pusit is a competitive and free-for-all like Squid Game, but with a twist. Every game consists of a variety of exercises designed to get everyone moving and sweating."/>
+</head>
+<body class ="loading">
+    <!-- Loader -->
+      <div class ="load">
+          <div class="loader">
+              <svg viewBox="0 0 80 80">
+                  <circle id="test" cx="40" cy="40" r="32"></circle>
+              </svg>
+          </div>
+        
+          <div class="loader triangle">
+              <svg viewBox="0 0 86 80">
+                  <polygon points="43 8 79 72 7 72"></polygon>
+              </svg>
+          </div>
+        
+          <div class="loader">
+              <svg viewBox="0 0 80 80">
+                  <rect x="8" y="8" width="64" height="64"></rect>
+              </svg>
+          </div>
+          <a class="dribbble" href="https://dribbble.com/shots/5878367-Loaders" target="_blank"><img src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg" alt=""></a>
+      </div>
+
+    <!-- Trailer -->
+      <section class ="banner">
+        <div class="video">
+            <h1 id="count">10</h1>
+            <iframe src="https://www.youtube-nocookie.com/embed/qPKbzal_NaY?autoplay=1&loop=1&rel=0&cc_load_policy=1" width="888.54" height="543" frameborder="0"></iframe>
+            <a href ="home.html" class="btn">Skip Video</a></div> 
+        </div>
+    </section>
+  </body>
+
+    <!-- Script -->
+    <script>
+        var loader = document.querySelector(".load")
+        var body = document.querySelector("body")
+        var load = document.querySelector(".loader")
+
+        window.addEventListener("load", vanish);
+        function vanish() { 
+        loader.classList.add("disappear");
+        body.classList.remove("loading");
+        }
+    </script>
+    <script src="js/trailer.js"></script>
+  </html>

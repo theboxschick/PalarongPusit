@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palarong Pusit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/try.css">
+    <link rel="stylesheet" href="css/diamonds.css">
+    <link rel="shortcut icon" type ="image" href ="logo.png">
+    <meta property="og:image" content="preview.png">
+    <meta property="og:title" content="Palarong Pusit"/>
+    <meta property="og:description" content="We are the Grade 11-Faith, the founder of this event. Palarong Pusit is a competitive and free-for-all like Squid Game, but with a twist. Every game consists of a variety of exercises designed to get everyone moving and sweating."/>
+    <script src="https://kit.fontawesome.com/5c687ada1a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  </head>
+  <body class ="loading">
+    <!-- Loader -->
+ <div class ="load">
+   <div class="loader">
+       <svg viewBox="0 0 80 80">
+           <circle id="test" cx="40" cy="40" r="32"></circle>
+       </svg>
+   </div>
+ 
+   <div class="loader triangle">
+       <svg viewBox="0 0 86 80">
+           <polygon points="43 8 79 72 7 72"></polygon>
+       </svg>
+   </div>
+ 
+   <div class="loader">
+       <svg viewBox="0 0 80 80">
+           <rect x="8" y="8" width="64" height="64"></rect>
+       </svg>
+   </div>
+   <a class="dribbble" href="https://dribbble.com/shots/5878367-Loaders" target="_blank"><img src="https://cdn.dribbble.com/assets/dribbble-ball-mark-2bd45f09c2fb58dbbfb44766d5d1d07c5a12972d602ef8b32204d28fa3dda554.svg" alt=""></a>
+</div>
+
+    <!-- Navigation Bar -->
+  <header>
+    <a href="#" class="logo">Pala<span>rong</span> Pu<span>si</span>t</a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navigation">
+      <li><a href ="#home">Home</a></li>
+      <li><a href ="#about">About</a></li>
+      <li><a href ="#activities">Activities</a></li>
+      <li><a href ="#calendar">Calendar</a></li>
+      <li><a href ="#FAQ">FAQ</a></li>
+      <li><a href ="#record">Record</a></li>
+    </ul>
+  </header>
+
+        <audio loop autoplay id="audio">
+              <!-- Credits to Context Sensitive for the soundtrack 
+              Channel: https://www.youtube.com/channel/UCT1ZkP03V18LmOj8zbyP-Dw
+              Crab Game Soundtrack: https://www.youtube.com/watch?v=J1qR2d1kIrE&-->
+          <source src="vid/music.mp3" type="audio/mp3">
+        </audio>
+
+    <a class= "music"><img src ="others/pause.png" id="icon"> </a>
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
+    <!-- Countdown -->
+    <section class ="banner" id="home" onclick="scrollToTop();">
+      <div class ="content">
+        <div class ="joinContainer">
+          <h1>Ang</a><span>Palarong</span>Pusit</h1>
+          <div id ="coming">THE EVENT HAS ENDED! </h2>
+            <p>We would like to congratulate all those who lasted till the last round. Secondly, we commend those who did their best throughout the game.</p>
+          </div>
+    </section>
+
+    <!-- Counter -->
+    <section id ="welcome">
+      <div class ="container">
+          <div class ="welcome text-center">
+            <p class ="players">Number of Players<br> <span class ="counter">2</span></p>
+            <br>
+            <br>
+            <p class ="players">Prize Pool</p> 
+            <p class ="small">(Goes up when players get eliminated)<br></p>
+            <p class ="players"><span>P</span><span class="counter">550</span></p>
+            <p class ="small">*1st place will receive the 63.64% and the 2nd place 36.36% of the prize winning.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- Who We Are -->
+    <section class ="sec" id="about">
+      <div class ="content2">
+        <div class ="mxw800p">
+          <h3 class="titleText"><span>W</span>ho We Are</h3>
+          <p class="info">We are the founders of Palarong Pusit. 2 Winners will receive a cash prize from the prize pool. Palarong Pusit aims to make learners enjoy doing physical activities at their homes during this time of the pandemic.</p>
+          <div class ="iframe-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/mv9M5Z4qWds?rel=0&cc_load_policy=1" width="660" height="415" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who You Are -->
+    <section class ="sec">
+      <div class ="content2">
+        <div class ="mxw800p">
+          <h3 class="titleText"><span>W</span>ho You Are</h3>
+          <p class="info">39 players from 10 - Diligence will play 5 different games in 19 days.</p>
+    </section>
+
+    <!-- Waiver Form-->
+    <section class ="sec" id="abouT">
+      <div class ="content2">
+        <div class ="mxw800p above">
+        <h3 class="titleText"><span>W</span>aiver Form</h3>
+        <div class ="waiver-container">
+          <div class ="waiverform">Accidents do happen, and we never know when they will. As we organize this event, we place a great value on the safety of our participants. The waiver comprises parental permission for them to join the event. </div>
+          </div>
+
+          <h2> Forms is closed <i class="far fa-frown-open"></i></h2>
+      </div>
+
+    </section>
+<hr>
+    <!-- Activites -->
+    <section class ="act" id="activities">
+      <div class ="content2">
+        <div class ="mxw800p">
+        <h3 class="titleText"><span>A</span>ctivities</h3>
+      </div>
+
+      <!-- First Column -->
+      <div class ="activites">
+
+        <!-- Red Light, Green Light, Yellow Light --> <!-- No Cheatingg!! -->
+        <div class="box">
+          <div class="iconBx">
+            <img src="others/icon1.png">
+          </div>
+          <div class="details">
+          <h2>Red Light, <br>Green Light, <br>Yellow Light,</h2>
+            <p>When you see and hear the words “red light”, you are not permitted to move. However, when you see and hear “green light”, you will perform either push-ups or squats.</p>
+              <div class ="button">
+                  <div class ="button-content">
+                      <a href="redlight_greenlight.html">More Info</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Wheel of Moyang --> <!-- No Cheatingg!! -->
+        <div class="box">
+          <div class="iconBx">
+            <img src="others/shapes.png">
+          </div>
+          <div class="detailsA">
+          <h2>Wheel of Moyang</h2>
+            <p>There will be four Moyang, or shapes in English, including a circle, a star, a triangle, and an umbrella. Each of these shapes has its own set of exercises.</p>
+              <div class ="button">
+                  <div class ="button-content">
+                      <a href="moyang.html">More Info</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Scavenger Hunt --> <!-- No Cheatingg!! -->
+        <div class="box">
+          <div class="iconBx">
+            <img src="others/hunt.png">
+          </div>
+          <div class="detailsB">
+          <h2>Scavenger Hunt</h2>
+            <p>There will be mystery items that the players will try to guess, but to figure out what those mystery items are, they must complete a series of exercises for each clue they seek.</p>
+              <div class ="button">
+                  <div class ="button-content">
+                      <a href="scavengershunt.html">More Info</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class ="activites">
+
+        <!-- ENOM --> <!-- No Cheatingg!! -->
+        <div class="box">
+          <div class="iconBx">
+            <img src="others/ENOM.png">
+          </div>
+          <div class="detailsC">
+          <h2>ENOM</h2>
+            <p>Since there are three (3) numbers in every player’s ID, every player will get the foresaid number of minutes to each assigned exercise and rest according to their ID. </p>
+              <div class ="button">
+                  <div class ="button-content">
+                      <a href="enom.html">More Info</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Fitness Bingo --> <!-- No Cheatingg!! -->
+        <div class="box">
+          <div class="iconBx">
+            <img src="others/bingo.png">
+          </div>
+          <div class="detailsD">
+          <h2>Fitness Bingo</h2>
+            <p>Each player will be given a bingo card with different corresponding exercises in it. The bingo card will include its own workout, which must be completed within a certain period.</p>
+              <div class ="button">
+                  <div class ="button-content">
+                      <a href="fitness_bingo.html">More Info</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!---Calendar-->
+    <section class ="sec2 stats" id="calendar">
+  <div id="calendar-wrap">
+    <h1>Calendar of Events <br><span>November 2021 - December 2021</span></h1>
+  <div id="calendar">
+    <ul class="weekdays">
+      <li>Sunday</li>
+      <li>Monday</li>
+      <li>Tuesday</li>
+      <li>Wednesday</li>
+      <li>Thursday</li>
+      <li>Friday</li>
+      <li>Saturday</li>
+    </ul>
+
+    <!-- Days in current month -->
+    <ul class="days">
+      <li class="day">
+        <div class="date">14</div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">15</div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">16</div>    					
+      </li>
+      
+      <li class="day">
+        <div class="date">17</div>    					
+      </li>
+      
+      <li class="day">
+        <div class="date">18</div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">19</div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">20</div>    					
+      </li>
+    </ul>
+
+    <ul class="days">
+      <li class="day">
+        <div class="date">21</div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">22</div>
+          <div class="event">
+            <div class="event-desc">
+              Start of Event <br> 1st Game
+            </div>
+            <div class="event-time">
+              3:10PM onwards
+            </div>
+          </div> 					
+      </li>
+
+      <li class="day">
+        <div class="date">23</div> 
+          <div class="event">
+            <div class="event-desc">
+              Submission of 1st Entry
+            </div>
+            <div class="event-time">
+              11:59PM
+            </div>
+          </div>   					
+      </li>
+
+      <li class="day">
+        <div class="date">24</div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">25</div>
+        <div class="event">
+          <div class="event-desc">
+            Start of 2nd Event
+          </div>
+          <div class="event-time">
+            12:00PM
+          </div>
+        </div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">26</div>
+        <div class="event">
+          <div class="event-desc">
+            Submission of 2nd Entry
+          </div>
+          <div class="event-time">
+            11:59PM
+          </div>
+        </div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">27</div>   					
+      </li>
+    </ul>
+
+      <!-- Row #2 -->
+
+    <ul class="days">
+      <li class="day">
+        <div class="date">28</div>    					
+      </li>
+
+      <li class="day">
+        <div class="date">29</div>
+        <div class="event">
+          <div class="event-desc">
+            Start of 3rd Event
+          </div>
+          <div class="event-time">
+            12:00PM
+          </div>
+        </div>     					
+      </li>
+
+      <li class="day">
+        <div class="date">30</div>
+        <div class="event">
+          <div class="event-desc">
+            Submission of 3rd Entry
+          </div>
+          <div class="event-time">
+            11:59PM
+          </div>
+        </div>     					
+      </li>
+
+      <li class="day other-month">
+        <div class="date">1</div>
+        <div class="event">
+          <div class="event-desc">
+            Start of 4th Event
+          </div>
+          <div class="event-time">
+            12:00PM
+          </div>
+        </div>     					
+      </li>
+
+      <li class="day other-month">
+        <div class="date">2</div>
+        <div class="event">
+          <div class="event-desc">
+            Submission of 4th Entry
+          </div>
+          <div class="event-time">
+            11:59PM
+          </div>
+        </div>     					
+      </li>
+
+      <li class="day other-month">
+        <div class="date">3</div>
+          <div class="event">
+            <div class="event-desc">
+              Start of Final Event
+            </div>
+            <div class="event-time">
+              12:00PM
+            </div>
+          </div>     					
+      </li>
+
+      <li class="day other-month">
+        <div class="date">4</div>    					
+      </li>
+    </ul>
+
+      <!-- Row #3 -->
+
+    <ul class="days">
+      <li class="day other-month">
+        <div class="date">5</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">6</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">7</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">8</div>
+        <div class="event">
+          <div class="event-desc">
+            Submission of Final Entry
+          </div>
+          <div class="event-time">
+            11:59PM
+          </div>
+        </div>     					
+      </li>
+      <li class="day other-month">
+        <div class="date">9</div>
+      </li>
+      <li class="day other-month">
+        <div class="date">10</div>
+        <div class="event">
+          <div class="event-desc">
+            Closing Cerem. + Awards
+          </div>
+          <div class="event-time">
+            3:10PM onwards
+          </div>
+        </div>     					
+      </li>
+      <li class="day other-month">
+        <div class="date">11</div>    					
+      </li>
+    </ul>
+
+    <ul class="days">
+      <li class="day other-month">
+        <div class="date">12</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">13</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">14</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">15</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">16</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">17</div>    					
+      </li>
+      <li class="day other-month">
+        <div class="date">18</div>    					
+      </li>
+    </ul>
+  </div><!-- /. calendar -->
+</div>
+
+</div>
+</section>
+
+    <!---Frequently Asked Question-->
+    <section class ="sec" id="FAQ"> 
+      <div class ="content2">
+        <div class ="mxw800p faq">
+        <h3 class="titleText"><span>F</span>requently Asked Question</h3>
+        <p><b><span>Q. </span>What happens after each player gets eliminated? </p></b>
+        <p><span class ="red">Λ. </span>Prizes will be increased for each elimination and all players will get a special participation certificate at the end of the event.</p>
+        <br>
+        <p><b><span>Q. </span>What are the prizes?</p></b>
+        <p><span class ="red">Λ. </span>The first place and the second place will recieve a cash prize and the other participants will recieve certificate of appreciation.</p>
+        <br>
+        <p><b><span>Q. </span>How long will the event run?</p></b>
+        <p><span class ="red">Λ. </span>This sporting event will last for 2 to 3 weeks starting on November 22, 2021 until December 10, 2021.</p>
+        <br>
+        <p><b><span>Q. </span>How to participate on the challenges and exercises?</p></b>
+        <p><span class ="red">Λ. </span>The players will record themselves in video doing the exercises and will submit via email. They will submit it on <span class ="underline">faith11events@gmail.com</span>.</p>
+        <br>
+        <p><b><span>Q. </span>Why does each player need a 1x1 picture?</p></b>
+        <p><span class ="red">Λ. </span>Each player's 1x1 picture will be used for this event's documentations and certifications. Player's data will be safe and secured.</p>
+        <p><b><span>Q. </span>How can the players record themselves?</p></b>
+        <p><span class ="red">Λ. </span>The participants can document themselves via MS Teams if there is insufficient phone storage.</p>
+      </div>
+      </div>
+    </section>
+<hr>
+    <!--How To Record -->
+    <section class ="sec" id="record">
+      <div class ="content2">
+        <div class ="mxw800p">
+            <h3 class="titleText"><span>H</span>ow to Record</h3>
+        </div>
+        <div class ="iframe-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/00-OqqlBs4Q?rel=0" width="660" height="415" frameborder="0" allowfullscreen></iframe>
+          </div>
+    </section>
+
+  <!---Team
+      <section class ="sec" id="team">
+        <div class ="content2">
+          <div class ="mxw800p below">
+            <h3 class="titleText"><span>T</span>eam</h3>
+        </div>
+        <div class ="diamond-grid">
+          <div class="item">
+              <img src="gl/ACUÑA_SamanthaLouisse_11Faith.png">
+              <div class="name">
+                <p>Samantha<br> Acuña</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/BALAYAN_JanBenedict_11FAITH.png">
+            <div class="name">
+              <p>Jan Benedict <br> Balayan</p>>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/Barte_Ian_Denzel_11-Faith.png">
+            <div class="name">
+              <p>Ian Denzel<br> Barte</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/Bernal_Polaris_11Faith.png">
+            <div class="name">
+              <p>Polaris<br> Bernal</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/Bigornia_Andrei_11Faith.png">
+            <div class="name">
+              <p>Andrei<br> Bigornia</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/CABATO_Willi-AnneLiza_11Faith.png">
+            <div class="name">
+              <p>Willi-Anne Liza<br> Cabato</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/CALLEJA_RichelleAnne_11FAITH.png">
+            <div class="name">
+              <p>Richelle Anne<br> Calleja</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/Carreon_Ian_11FAITH.png">
+            <div class="name">
+              <p>Ian<br> Carreon</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/FARIN_Gercie_11Faith.png">
+            <div class="name">
+              <p>Gercie<br> Farin</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/GIRON_benjamin_11Faith.png">
+            <div class="name">
+              <p>Benjamin<br> Giron</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/Guerrero_Obe_11Faith.png">
+            <div class="name">
+              <p>Obe <br> Guerrero</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/IGLESIA_PaulEdwin_11Faith.png">
+            <div class="name">
+              <p>Paul Edwin<br> Iglesia</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/LAUREANO_JohnWalter_11Faith.png">
+            <div class="name">
+              <p>John Walter<br> Laureano</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/MANLIQUEZ_MarkAndrew_11Faith.png">
+            <div class="name">
+              <p>Mark Andrew<br> Manliquez</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/MATIENZO_IanCarl_11Faith.png">
+            <div class="name">
+              <p>Ian Carl<br> Matienzo</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/Osio_Jannelle_11Faith.png">
+            <div class="name">
+              <p>Jannelle<br> Osio</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/PAGUIO_LanceKurtstan_11Faith.png">
+            <div class="name">
+              <p>Lance Kurtstan<br> Paguio</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/SANTOS_GerardAlexis_11Faith.png">
+            <div class="name">
+              <p>Gerard Alexis<br> Santos</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/SOLAS_BlessyPearl_11Faith.png">
+            <div class="name">
+              <p>Blessy Pearl<br> Solas</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/VALLEJOS_SeanVladmir_11Faith.png">
+            <div class="name">
+              <p>Sean Vladimir<br> Vallejos</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/Villafuerte_Karl_11Faith.png">
+            <div class="name">
+              <p>Karl<br> Villafuerte</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/VILLAMIN_Arvy_11Faith.png">
+            <div class="name">
+              <p>Arvy<br> Villamin</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/Villasan_KianaDane_11Faith.png">
+            <div class="name">
+              <p>Kiana Dane<br> Villasan</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="gl/ZAMUDIO_McLiam_11Faith.png">
+            <div class="name">
+              <p>Mc Liam<br> Zamudio</p>
+            </div>
+</div>
+    </section>
+    --->
+ 
+    <!---Footer--->
+    <footer>
+      <div class="container">
+          <div class="section aboutus">
+              <h2>About Us</h2>
+              <p>We are the Grade 11-Faith, the founder of this event. “Palarong Pusit" is a competitive and free-for-all like "Squid Game", but with a twist. Every game consists of a variety of exercises designed to get everyone moving and sweating.</p>
+          </div>
+          <div class ="section quickLinks">
+              <h2>Quick Links</h2>
+              <ul>
+                  <li><a href ="#home">Home</a></li>
+                  <li><a href ="#about">About</a></li>
+                  <li><a href ="#activities">Activities</a></li>
+                  <li><a href ="#calendar">Calendar</a></li>
+                  <li><a href ="#FAQ">FAQ</a></li>
+                  <li><a href ="#record">Record</a></li>
+              </ul>
+          </div>
+          <div class ="section contact">
+              <h2>Contact Info</h2>
+              <ul class="info">
+                  <li>
+                      <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                      <span>Unknown</span>
+                  </li>
+                  <li>
+                      <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                      <p><a href="tel:12345678900">Samantha Acuña</a><br>
+                          <a href="tel:12345678900">Willi-Anne Cabato</a></p>
+                  </li>
+                  <li>
+                      <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                      <p><a href="mailto:faith11events@gmail.com"> faith11events@gmail.com</a></p>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </footer>   
+
+  <!---Scripts--->
+    <script src="js/main.js"></script>
+    <script src="js/scroll-out.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/jquery.diamonds.js"></script>
+    <!---
+    <script src="js/countdown.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/countdown_moyang.js"></script>
+    <script src="js/countdown_redlight.js"></script>
+    <script src="js/countdown_sh.js"></script>
+    <script src="js/countdown_enom.js"></script>
+    <script src="js/countdown_bingo.js"></script>
+    <script src="js/closing_in.js"></script>
+    -->
+    <script>
+      ScrollOut({
+        targets: 'div,span,h3'
+      })
+
+      //diamond-grid
+      $(".diamond-grid").diamonds({
+          size : 220, // Size of diamonds in pixels. Both width and height. 
+          gap : 5, // Pixels between each square.
+          hideIncompleteRow : false, // Hide last row if there are not enough items to fill it completely.
+          autoRedraw : true, // Auto redraw diamonds when it detects resizing.
+          itemSelector : ".item" // the css selector to use to select diamonds-items.
+      });
+    </script>
+  </body>
+  </html>
